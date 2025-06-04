@@ -1,7 +1,7 @@
 const {test,expect}=require('@playwright/test');
 const { Console } = require('console');
 
-test.only("practice website", async({page})=>
+test("practice website", async({page})=>
 {
    // Navigate to website
 await page.goto("https://rahulshettyacademy.com/client");
